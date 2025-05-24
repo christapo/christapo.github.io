@@ -1,5 +1,41 @@
 body {
-    margin: 0;
-    background: tan;
-    text-align: center;
+  margin: 0;
+  background: #ffa87a;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar container */
+.sidebar {
+  position: fixed;       /* fixed so it stays on scroll */
+  top: 0;
+  left: 0;
+  height: 100vh;         /* full viewport height */
+  width: 220px;
+  background-color: black;
+  padding-top: 30px;
+  box-sizing: border-box;
+  text-align: left;      /* left-align links */
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #ff9a67;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.sidebar a:hover {
+  background-color: #333333;
+  color: #ffa87a;
+}
+
+/* Main content with left margin so it's not under the sidebar */
+.main-content {
+  margin-left: 220px;
+  padding: 30px 20px;
+  text-align: left;
 }

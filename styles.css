@@ -53,11 +53,11 @@ body {
 }
 
 /* Style all email (mailto:) links site-wide */
-a[href^=""] {
+a {
   color: #000000;
   text-decoration: underline;
 }
 
-a[href^=""]:hover {
+a:hover {
   color: #67CCFF;
 }

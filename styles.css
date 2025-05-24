@@ -33,9 +33,13 @@ body {
   color: #ffa87a;
 }
 
-/* Main content with left margin so it's not under the sidebar */
+/* Main content with center alignment */
 .main-content {
   margin-left: 220px;
   padding: 30px 20px;
-  text-align: left;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centers content horizontally */
+  /* text-align can stay left or center depending on content */
 }

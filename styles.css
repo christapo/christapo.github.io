@@ -61,3 +61,11 @@ a {
 a:hover {
   color: #67CCFF;
 }
+
+.sidebar-image {
+  width: 100%;        /* makes image fit sidebar width */
+  height: auto;       /* keeps aspect ratio */
+  margin-bottom: 20px; /* space between image and links */
+  display: block;     /* remove inline spacing */
+  object-fit: contain; /* optional: keeps image proportions */
+}

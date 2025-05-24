@@ -43,3 +43,11 @@ body {
   align-items: center;  /* centers content horizontally */
   /* text-align can stay left or center depending on content */
 }
+
+
+/* Tighter spacing for headings and paragraphs inside main content */
+.main-content h1,
+.main-content p {
+  margin: 0.5em 0;
+  line-height: 1.4;
+}

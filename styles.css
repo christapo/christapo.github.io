@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #ffa87a;
+  background: #d0e2ff;
   text-align: center;
   font-family: Arial, sans-serif;
 }
@@ -21,7 +21,7 @@ body {
 /* Sidebar links */
 .sidebar a {
   display: block;
-  color: #ff9a67;
+  color: #a6c8ff;
   padding: 15px 25px;
   text-decoration: none;
   font-weight: bold;
@@ -30,7 +30,7 @@ body {
 
 .sidebar a:hover {
   background-color: #333333;
-  color: #ffa87a;
+  color: #d0e2ff;
 }
 
 /* Main content with center alignment */
@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-  color: #67CCFF;
+  color: #ffa97a;
 }
 
 .sidebar-image {
